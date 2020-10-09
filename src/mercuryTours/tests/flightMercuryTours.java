@@ -16,7 +16,7 @@ public class flightMercuryTours {
 	public static void main(String args[]) throws IOException{
 		System.setProperty("webdriver.chrome.driver", "E:/Selenium/Driver/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("http://newtours.demoaut.com/");
+		driver.get("https://newtours.demoaut.com/");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		first f1=new first();
 		second f2=new second();

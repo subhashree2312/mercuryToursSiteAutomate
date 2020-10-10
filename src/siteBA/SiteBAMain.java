@@ -23,7 +23,7 @@ public class SiteBAMain {
 		
 		System.setProperty("webdriver.chrome.driver", "E:/Selenium/Driver/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.britishairways.com/travel/home/public/en_in");
+		driver.get("http://www.britishairways.com/travel/home/public/en_in");
 		Thread.sleep(5000);
 		driver.findElement(By.id("carsTab")).click();
 		driver.findElement(By.id("planTripCarDestination")).sendKeys("New York");
